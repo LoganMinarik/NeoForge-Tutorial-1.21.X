@@ -53,6 +53,10 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BISMUTH);
         }
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.FEMBOYMILK);
+            event.accept(ModItems.TOMBOYMILK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
